@@ -9,6 +9,7 @@ ps = PorterStemmer()
 tfv = TfidfVectorizer(max_features=2500)
 import numpy as np
 model = pickle.load(open('model.pkl', 'rb'))
+tfv = pickle.load(open('vectorizer.pkl', 'rb'))
 
 def transform_text(text):
     text = text.lower()
@@ -36,7 +37,7 @@ st.markdown(
 st.divider()
 txt = st.text_area("Enter your SMS message here:", height=150)
 transformed_txt = transform_text(txt)
-vector_input = tfv.fit_transform([transformed_txt])
+vector_input = tfv.transform([transformed_txt])
 prediction = model.predict(vector_input)[0]
 
 
