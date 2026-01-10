@@ -36,7 +36,7 @@ st.markdown(
 st.divider()
 txt = st.text_area("Enter your SMS message here:", height=150)
 transformed_txt = transform_text(txt)
-vector_input = tfv.fit_transform([txt])
+vector_input = tfv.fit_transform([transformed_txt])
 prediction = model.predict(vector_input)[0]
 
 
