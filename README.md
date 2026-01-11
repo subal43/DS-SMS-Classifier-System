@@ -45,3 +45,17 @@ To run this project locally, follow these steps:
     streamlit run web_main.py
     ```
 
+
+## 🏃 Usage
+
+1.  Navigate to the project directory:
+    ```bash
+    cd "d:\SMS Classifier"
+    ```
+
+2.  Run the Streamlit app:
+    ```bash
+    streamlit run web_main.py
+    ```
+
+3.  The application will open in your default web browser. Enter an SMS message in the text area and click **"Classify Message"** to see the result.
