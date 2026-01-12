@@ -59,3 +59,11 @@ To run this project locally, follow these steps:
     ```
 
 3.  The application will open in your default web browser. Enter an SMS message in the text area and click **"Classify Message"** to see the result.
+
+## 📂 Project Structure
+
+-   `web_main.py`: The main Streamlit application script.
+-   `main.ipynb`: Jupyter notebook used for data analysis, preprocessing, and model training.
+-   `model.pkl`: The trained machine learning model.
+-   `vectorizer.pkl`: The TF-IDF vectorizer used to transform input text.
+-   `data/`: Directory containing the dataset (`spam.csv`).
