@@ -67,3 +67,11 @@ To run this project locally, follow these steps:
 -   `model.pkl`: The trained machine learning model.
 -   `vectorizer.pkl`: The TF-IDF vectorizer used to transform input text.
 -   `data/`: Directory containing the dataset (`spam.csv`).
+
+
+## 📜 License
+
+This project is open-source. Please check the LICENSE file for more details.
+
+---
+*Developed by Subal Kundu*
